@@ -1,0 +1,14 @@
+{
+  "name": "@jot/models",
+  "version": "0.1.0",
+  "author": {
+    "name": "Brian Reece",
+    "url": "https://github.com/bdreece"
+  },
+  "license": "AGPLv3",
+  "private": true,
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

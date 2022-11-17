@@ -1,0 +1,25 @@
+{
+  "name": "@jot/eslint-config",
+  "version": "0.1.0",
+  "author": {
+    "name": "Brian Reece",
+    "url": "https://github.com/bdreece"
+  },
+  "license": "AGPLv3",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-astro": "^1.0.8",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-turbo": "latest",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "7.31.8"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

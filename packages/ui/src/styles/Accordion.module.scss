@@ -1,0 +1,20 @@
+@use 'helpers' as *;
+
+.accordion {
+  background-color: $white;
+  border-radius: 15px;
+  padding: 1rem;
+  summary {
+    list-style-type: none;
+    &::before {
+      content: attr(data-toggle);
+      margin-right: 4px;
+    }
+  }
+  *:not(summary) {
+    background-color: $beige;
+    padding: 0.5rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}

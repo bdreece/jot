@@ -1,0 +1,12 @@
+{
+  "extends": "@app/tsconfig/react-library.json",
+  "compilerOptions": {
+    "outDir": "build",
+    "declaration": true,
+    "declarationDir": ".",
+    "allowSyntheticDefaultImports": true,
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.json", "src/**/*.scss"],
+  "exclude": ["dist", "build", "node_modules"]
+}

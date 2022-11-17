@@ -1,0 +1,9 @@
+{
+  "extends": "@app/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

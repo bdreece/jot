@@ -1,0 +1,25 @@
+{
+  "name": "@jot/data",
+  "version": "0.1.0",
+  "author": {
+    "name": "Brian Reece",
+    "url": "https://github.com/bdreece"
+  },
+  "license": "AGPLv3",
+  "private": true,
+  "scripts": {
+    "push": "prisma db push",
+    "generate": "prisma generate",
+    "postinstall": "prisma generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.6.1",
+    "prisma-erd-generator": "^1.2.3",
+    "zod": "^3.19.1",
+    "zod-prisma": "^0.5.4"
+  },
+  "devDependencies": {
+    "prisma": "^4.6.1"
+  }
+}

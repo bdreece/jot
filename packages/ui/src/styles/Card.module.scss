@@ -1,0 +1,16 @@
+@use 'helpers' as *;
+
+.card {
+  @include box(column, $gap: 1rem);
+  max-width: 60vw;
+  max-height: 60vh;
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: $white;
+  border-radius: 16px;
+  box-shadow: 0px 0px 1rem $black;
+  h1,
+  section {
+    text-align: center;
+  }
+}
