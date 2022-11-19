@@ -1,8 +1,13 @@
 {
-  "extends": "@app/tsconfig/base.json",
+  "extends": "@jot/tsconfig/base.json",
   "compilerOptions": {
     "baseUrl": "src",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "target": "es2018",
+    "module": "commonjs",
+    "lib": ["es2018", "esnext.asynciterable"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
