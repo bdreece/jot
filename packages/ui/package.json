@@ -16,8 +16,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@app/eslint-config": "workspace:*",
-    "@app/tsconfig": "workspace:*",
+    "@jot/eslint-config": "workspace:*",
+    "@jot/tsconfig": "workspace:*",
     "@rollup/plugin-typescript": "^8.5.0",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",

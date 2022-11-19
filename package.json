@@ -1,6 +1,11 @@
 {
-  "name": "monoplate",
-  "version": "0.0.0",
+  "name": "jot",
+  "version": "0.1.0",
+  "author": {
+    "name": "Brian Reece",
+    "url": "https://github.com/bdreece"
+  },
+  "license": "AGPLv3",
   "private": true,
   "workspaces": [
     "apps/*",
@@ -13,7 +18,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@app/eslint-config": "workspace:*",
+    "@jot/eslint-config": "workspace:*",
     "prettier": "latest",
     "turbo": "latest"
   },
